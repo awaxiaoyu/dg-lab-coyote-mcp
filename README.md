@@ -1,6 +1,6 @@
-# DG-Lab Coyote MCP
+# DG-Lab 郊狼 MCP
 
-本项目是一个本地 stdio MCP server，让 AI client 通过 DG-Lab 官方 WebSocket Socket API 控制 Coyote V3。它默认只开放本机 MCP，不提供 remote HTTP MCP。
+本项目是一个本地 stdio MCP server，让 AI client 通过 DG-Lab 官方 WebSocket Socket API 控制 郊狼。它默认只开放本机 MCP，不提供 remote HTTP MCP。
 
 ## 功能
 
