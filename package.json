@@ -1,0 +1,36 @@
+{
+  "name": "dg-lab-coyote-mcp",
+  "version": "1.0.0",
+  "description": "Local stdio MCP server for controlling a DG-Lab Coyote V3 device through the official WebSocket protocol.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "dg-lab-coyote-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "dg-lab",
+    "coyote"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "qrcode": "^1.5.4",
+    "ws": "^8.21.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/ws": "^8.18.1",
+    "typescript": "^6.0.3"
+  }
+}
